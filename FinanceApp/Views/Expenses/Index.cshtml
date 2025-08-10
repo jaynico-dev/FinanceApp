@@ -1,6 +1,11 @@
 ﻿@model IEnumerable<FinanceApp.Models.Expense>
 
-<h2>My Expenses</h2>
+<div class="d-flex justify-content-between mb-3">
+	<h2 class="mb-0">My Expenses</h2>
+	<a asp-action="Create" class="btn btn-primary">Add Expense</a>
+</div>
+
+
 
 <div class="container">
 	<table class="table table-bordered">
